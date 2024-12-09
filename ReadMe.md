@@ -3,6 +3,12 @@
 
 ---
 
+## Docker Image Link
+https://hub.docker.com/r/nidhish1312/wine-quality-eval/tags
+![Docker](image.png)
+
+---
+
 ## Instructions for Deployment
 
 ### 1. SSH into Instances
@@ -155,3 +161,9 @@ Run:
 ```bash
 spark-submit --master spark://<master-ip>:7077 --class com.example.WineQualityEval /app/WineQualityEval/target/wine-quality-eval-1.0-SNAPSHOT.jar
 ```
+---
+
+## Results
+F1 Score: 0.8104636591478698
+![Result](/2024-12-11%2011_56_11-login.docker.com_device_success.png)
+
